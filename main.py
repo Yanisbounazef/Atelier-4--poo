@@ -5,8 +5,8 @@ class Employe:
         self.prenom = prenom
         self.voitureService = None
 
-        def afficherInformations(self):
-            print(f"Employé : {self.numeroPermis}")
+    def afficherInformations(self):
+            print(f"Employe : {self.numeroPermis}")
             print(f"Nom : {self.nom}")
             print(f"Prénom : {self.prenom}")
             if self.voitureService != None:
@@ -49,11 +49,21 @@ class Voiture:
              print("Aucun chauffeur")
 
 e1 = Employe("sy101", "Sami", "Jevis")
-e2 = Employe("ty202", "van", "Ali")
-e3 = Employe("Ny303", "madjid", "ben")
-e4 = Employe("fy404", "sara", "denis")
+e2 = Employe("ty202", "Van", "Ali")
+e3 = Employe("Ny303", "Madjid", "Ben")
+e4 = Employe("fy404", "Sara", "Denis")
 
 v1 = Voiture("DH101", 2022, "HONDA", 350000)
 v2 = Voiture("FB303", 2023, "Audi", 25700)
 v3 = Voiture("RE309", 2024, "BMW", 50800)
 v4 = Voiture("GH222", 2025, "HYUNDAI", 250000)
+
+e1.afficherInformations()
+e2.afficherInformations()
+e3.afficherInformations()
+e4.afficherInformations()
+
+v1.afficherInformations()
+v2.afficherInformations()
+v3.afficherInformations()
+v4.afficherInformations()
