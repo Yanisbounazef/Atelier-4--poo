@@ -25,3 +25,8 @@ class Employe:
                 print(f"La voiture {voiture.matricule} est deja avec un employé")
         else:
             print(f"L'employé {self.nom} {self.prenom} possède déjà une voiture")
+
+            def retirerVoiture(self):
+                if self.voitureService != None:
+                    self.voitureService.chauffeur = None
+                    self.voitureService = None
