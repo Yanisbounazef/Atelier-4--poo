@@ -67,3 +67,8 @@ v1.afficherInformations()
 v2.afficherInformations()
 v3.afficherInformations()
 v4.afficherInformations()
+
+e1.affecterVoiture(v4)
+e2.affecterVoiture(v3)
+e1.afficherInformations()
+e2.afficherInformations()
