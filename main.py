@@ -47,3 +47,8 @@ class Voiture:
             print(f"Chauffeur : {self.chauffeur.nom} {self.chauffeur.prenom}")
         else:
              print("Aucun chauffeur")
+
+e1 = Employe("sy101", "Sami", "Jevis")
+e2 = Employe("ty202", "van", "Ali")
+e3 = Employe("Ny303", "madjid", "ben")
+e4 = Employe("fy404", "sara", "denis")
