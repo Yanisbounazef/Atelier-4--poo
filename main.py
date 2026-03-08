@@ -26,10 +26,10 @@ class Employe:
         else:
             print(f"L'employé {self.nom} {self.prenom} possède déjà une voiture")
 
-            def retirerVoiture(self):
-                if self.voitureService != None:
-                    self.voitureService.chauffeur = None
-                    self.voitureService = None
+    def retirerVoiture(self):
+        if self.voitureService != None:
+           self.voitureService.chauffeur = None
+           self.voitureService = None
 class Voiture:
     def __init__(self, matricule, annee, marque, kilometrage):
         self.matricule = matricule
@@ -72,3 +72,7 @@ e1.affecterVoiture(v4)
 e2.affecterVoiture(v3)
 e1.afficherInformations()
 e2.afficherInformations()
+
+e1.retirerVoiture()
+e1.afficherInformations()
+v1.afficherInformations()
