@@ -52,3 +52,8 @@ e1 = Employe("sy101", "Sami", "Jevis")
 e2 = Employe("ty202", "van", "Ali")
 e3 = Employe("Ny303", "madjid", "ben")
 e4 = Employe("fy404", "sara", "denis")
+
+v1 = Voiture("DH101", 2022, "HONDA", 350000)
+v2 = Voiture("FB303", 2023, "Audi", 25700)
+v3 = Voiture("RE309", 2024, "BMW", 50800)
+v4 = Voiture("GH222", 2025, "HYUNDAI", 250000)
