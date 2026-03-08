@@ -14,3 +14,14 @@ class Employe:
                 self.voitureService.afficherInformations()
             else:
                 print("Aucune voiture de service ")
+
+    def affecterVoiture(self, voiture):
+        if self.voitureService == None:
+            if voiture.chauffeur == None:
+                self.voitureService = voiture
+                voiture.chauffeur = self
+                print(f"La voiture {voiture.matricule} est bien ajoutée")
+            else:
+                print(f"La voiture {voiture.matricule} est deja avec un employé")
+        else:
+            print(f"L'employé {self.nom} {self.prenom} possède déjà une voiture")
